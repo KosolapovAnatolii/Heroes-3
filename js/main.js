@@ -139,13 +139,13 @@ let app = new Vue({
       }
    },
    computed: {
-      totalScore(){
-         let score=0
-         for(let i in this.totalGame){
-            score+=(this.totalGame[i]*results[i].points)
-         }
-         return score
-      },
+      // totalScore(){
+      //    let score=0
+      //    for(let i in this.totalGame){
+      //       score+=(this.totalGame[i]*results[i].points)
+      //    }
+      //    return score
+      // },
       openRaces(){
          let count = 0
          for(let i in this.totalGame){
